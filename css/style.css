@@ -1,1 +1,94 @@
+* {
+  color: white; 
+  font-family: 'Helvetica Neue', Georgia; 
+}
+
+body {
+  background-color: black;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 30px;
+}
+
+h1 {
+  font-size: 100px; 
+  font-weight: bold; 
+  text-align: center; 
+}
+
+h2 {
+  text-align: center;
+  font-size: 70px;
+  font-weight: bold;
+  color: white;
+}
+h3 {
+  font-size: 20px; 
+  font-weight: bold;
+  color: white;
+  text-align:center;
+}
+
+img {
+  max-width: 500px;
+  max-height: 700px;
+  height: auto;
+  border: 5px solid white;
+  border-radius: 20%;
+  transition: transform 0.2s ease-in-out; 
+}
+img:hover {
+  transform: scale(1.05); 
+}
+
+nav {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 10px;
+}
+nav ul li {
+  padding-left: 100px;
+  transition: transform 0.2s ease-in-out; 
+}
+nav ul li:hover {
+  transform: scale(1.2);
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  margin: 0; 
+  padding: 0; 
+}
+
+a {
+  font-weight: bold;
+  font-size: 1.5em;
+  color: white;
+  text-decoration: none;
+  transition: font-size 0.2s ease-in-out; 
+  padding-right: 20px;
+}
+
+
+
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.row-reverse{
+  flex-direction: row-reverse;
+}
+.text1 {
+  margin-right: 50px;
+  margin-left: 50px;
+}
 
